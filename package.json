@@ -1,0 +1,16 @@
+{
+  "name": "freshoutlook",
+  "version": "1.0.0",
+  "description": "restaurant",
+  "main": "index.js",
+  "scripts": {
+    "sass" : "sass --watch scss/styles.scss:css/styles.css --style compressed",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap-icons": "^1.11.3",
+    "package": "^1.0.1"
+  }
+}
