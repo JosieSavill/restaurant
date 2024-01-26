@@ -11,5 +11,38 @@
 
   .message {
     color: white;
+    width: 100%;
+    max-width: 600px;
+    font-family: $mainFont;
+    font-size: 40px;
   }
+
+  h2 {
+    font-size: 3rem;
+  }
+
+  button {
+    font-size: 2rem;
+    color: white;
+    background-color: $darkGreen;
+  }
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+}
+
+.social-links {
+  background-color: $green;
+  color: white;
+  font-family: $mainFont;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 50%;
+  padding: 0px 8px 12px 8px;
+  font-size: 30px;
+  border-radius: 0 0 10px 10px; //TL TR BR BL
+  gap: 20px;
 }
