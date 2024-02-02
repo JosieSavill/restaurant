@@ -101,5 +101,10 @@
   padding: 0px 8px 12px 8px;
   font-size: 30px;
   border-radius: 0 0 10px 10px; //TL TR BR BL
-  gap: 20px;
+  gap: 40px;
+  transition: color 0.3s ease-in-out;
+}
+
+.bi:hover {
+  color: black;
 }
