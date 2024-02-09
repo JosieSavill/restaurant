@@ -75,6 +75,13 @@
       color: white;
       background-color: $darkGreen;
       width: 50%;
+      border-radius: 10px 10px 10px 10px;
+      transition: color 0.3s ease-in-out;
+    }
+
+    button:hover {
+      color: $green;
+      cursor: pointer;
     }
   }
 
