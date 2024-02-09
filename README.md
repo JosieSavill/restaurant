@@ -17,6 +17,9 @@
 //work on main
 git add .
 git commit  -m "finished work on main"
+
+git push origin main 
+
 git checkout gh-pages
 git merge main
 git push origin gh-pages
