@@ -21,5 +21,9 @@ git commit  -m "finished work on main"
 git push origin main 
 
 git checkout gh-pages
+
+//if you dont want to disabe sass then git stash on gh-pages first before merge
 git merge main
 git push origin gh-pages
+
+
