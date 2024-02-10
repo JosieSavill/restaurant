@@ -22,8 +22,15 @@ git push origin main
 
 git checkout gh-pages
 
-//if you dont want to disabe sass then git stash on gh-pages first before merge
+git stash 
+// get rid of any merge conflicts
+
 git merge main
+
 git push origin gh-pages
+
+git checkout main
+
+//begin workflow
 
 
