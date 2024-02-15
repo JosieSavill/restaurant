@@ -3,18 +3,18 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  width: 80%;
+  width: 100%;
   height: auto;
-  padding-left: 10%;
 
   .dish-images {
     display: flex;
     flex-direction: row;
     padding-top: 10px;
-    padding-left: 40px;
+
     align-items: center;
     flex-wrap: wrap;
-    width: 80%;
+    width: 90%;
+    max-width: 1000px;
     height: auto;
 
     .dish1 {
