@@ -4,10 +4,13 @@
   gap: 20px;
   width: 100%;
   height: auto;
+  padding: 20px;
 
   .dining-text {
     font-style: italic;
     padding: 20px;
+    text-align: center;
+    align-items: center;
   }
 
   .dining-room {
@@ -21,7 +24,6 @@
       height: 672px;
       width: 474px;
       border-radius: 15px 15px 15px 15px;
-      padding-right: 40px;
     }
   }
 
