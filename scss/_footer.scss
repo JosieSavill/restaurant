@@ -1,0 +1,43 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  background-color: rgb(69, 197, 69);
+  flex-direction: row;
+  width: 50%;
+  height: auto;
+  margin-left: 25%;
+  margin-right: 25%;
+  border-radius: 15px 15px 0px 0px;
+  margin-top: 40px;
+  padding-left: 15%;
+
+  .logo {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 15px;
+    background-color: transparent;
+    img {
+      height: 64px;
+      width: 60px;
+    }
+  }
+
+  .webmaster {
+    .second-message {
+      font-size: 20px;
+      font-weight: 600;
+      color: white;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+
+    .small-statement {
+      font-size: 20px;
+      font-weight: 400;
+      font-style: italic;
+      color: white;
+    }
+  }
+}
