@@ -1,0 +1,17 @@
+.dining-room {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  padding-top: 20px;
+  padding-left: 40px;
+
+  .dining1 {
+    // max-width: 672px;
+    height: 672px;
+    width: 474px;
+    border-radius: 15px 15px 15px 15px;
+    // box-shadow: 4px 4px 0px 0px $green;
+    // border: solid thin $darkGreen;
+  }
+}

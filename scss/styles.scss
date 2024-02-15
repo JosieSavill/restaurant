@@ -2,6 +2,8 @@
 @import "nav";
 @import "hero";
 @import "middle";
+@import "dishes";
+@import "dining";
 
 .navbar-left {
   display: flex;
@@ -23,11 +25,6 @@
     height: 32px;
     width: 30px;
   }
-}
-
-.background-transparent {
-  mix-blend-mode: darken;
-  background-color: transparent;
 }
 
 .title {
