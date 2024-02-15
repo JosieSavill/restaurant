@@ -1,17 +1,36 @@
-.dining-room {
+.end {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  gap: 20px;
   width: 100%;
   height: auto;
-  padding-top: 20px;
-  padding-left: 40px;
 
-  .dining1 {
-    // max-width: 672px;
-    height: 672px;
-    width: 474px;
-    border-radius: 15px 15px 15px 15px;
-    // box-shadow: 4px 4px 0px 0px $green;
-    // border: solid thin $darkGreen;
+  .dining-text {
+    font-style: italic;
+    padding: 20px;
+  }
+
+  .dining-room {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    padding-top: 20px;
+    padding-left: 40px;
+
+    .dining1 {
+      height: 672px;
+      width: 474px;
+      border-radius: 15px 15px 15px 15px;
+      padding-right: 40px;
+    }
+  }
+
+  .dining-room2 {
+    display: flex;
+    flex-direction: row;
+
+    .dining2 {
+      border-radius: 15px 15px 15px 15px;
+    }
   }
 }
