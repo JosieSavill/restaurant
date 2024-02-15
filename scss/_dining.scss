@@ -6,13 +6,6 @@
   height: auto;
   padding: 20px;
 
-  .dining-text {
-    font-style: italic;
-    padding: 20px;
-    text-align: center;
-    align-items: center;
-  }
-
   .dining-room {
     display: flex;
     flex-direction: row;
@@ -34,5 +27,13 @@
     .dining2 {
       border-radius: 15px 15px 15px 15px;
     }
+  }
+
+  .dining-text {
+    font-family: $mainFont;
+    font-style: italic;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
   }
 }
