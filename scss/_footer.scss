@@ -1,22 +1,24 @@
 .footer {
   display: flex;
   flex-direction: column;
-  text-align: start;
-  background-color: rgb(69, 197, 69);
+  // text-align: start;
+
   flex-direction: row;
-  width: 50%;
   height: auto;
-  margin-left: 25%;
-  margin-right: 25%;
+  background-image: url("../images/greenSquare.png");
+  background-position: bottom;
   border-radius: 15px 15px 0px 0px;
   margin-top: 40px;
   padding-left: 15%;
+  justify-content: center;
+  height: 200px;
+  background-repeat: repeat-x;
 
   .logo {
-    padding-top: 10px;
+    padding-top: 40px;
     padding-bottom: 10px;
     padding-left: 5px;
-    padding-right: 15px;
+    padding-right: 20px;
     background-color: transparent;
     img {
       height: 64px;
@@ -25,19 +27,36 @@
   }
 
   .webmaster {
-    .second-message {
+    .title {
       font-size: 20px;
       font-weight: 600;
-      color: white;
-      padding-top: 10px;
+      text-align: start;
+
+      color: $darkGreen;
+      padding-top: 20px;
       padding-bottom: 10px;
     }
 
-    .small-statement {
+    .contact {
       font-size: 20px;
       font-weight: 400;
+      text-align: start;
       font-style: italic;
-      color: white;
+      color: $darkGreen;
+      padding-bottom: 20px;
     }
+  }
+
+  .border-bottom {
+    //height: 4px; /* Set the height of the line */
+    width: 50%; /* Set the width of the line */
+    background-color: $green; /* Set the color of the line */
+    margin: 0; /* Adjust margin as needed */
+    border-bottom: solid 1px black;
+    overflow: visible;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px 15px 0px 0px;
   }
 }
