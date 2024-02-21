@@ -9,6 +9,11 @@
   background-repeat: no-repeat;
   background-position: right 264px center;
   background-size: 180px;
+
+  @media (max-width: 1600px) {
+    background-position: right 200px center;
+  }
+
   .large-statement {
     font-size: 40px;
     font-weight: 600;
