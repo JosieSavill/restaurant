@@ -52,13 +52,15 @@
 
   .message {
     display: flex;
-
     z-index: 1;
     color: #fff;
     justify-content: center;
     max-width: 600px;
-
     flex-direction: column;
+
+    @media (max-width: 600px) {
+      margin-left: 20px;
+    }
 
     h2 {
       font-size: 5rem;
@@ -108,6 +110,10 @@
   border-radius: 0 0 10px 10px; //TL TR BR BL
   gap: 40px;
   transition: color 0.3s ease-in-out;
+
+  @media (max-width: 600px) {
+    gap: 20px;
+  }
 }
 
 .bi:hover {
