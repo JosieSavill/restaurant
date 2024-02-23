@@ -9,6 +9,7 @@
   background-repeat: no-repeat;
   background-position: right 264px center;
   background-size: 180px;
+  min-width: 500px;
 
   @media (max-width: 1600px) {
     background-position: right 200px center;
@@ -42,6 +43,7 @@
 
     @media (max-width: 600px) {
       width: 30%;
+      min-width: 200px;
     }
   }
 
