@@ -16,7 +16,9 @@
 ## work flow
 
 //work on main
+
 git add .
+
 git commit  -m "finished work on main"
 
 git push origin main 
