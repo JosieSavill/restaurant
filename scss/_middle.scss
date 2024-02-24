@@ -10,10 +10,14 @@
   background-repeat: no-repeat;
   background-position: right 264px center;
   background-size: 180px;
-  min-width: 500px;
+  min-width: 600px;
 
   @media (max-width: 1600px) {
     background-position: right 200px center;
+  }
+
+  @media (max-width: 600px) {
+    background-position: center;
   }
 
   .large-statement {
