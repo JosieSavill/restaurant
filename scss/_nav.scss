@@ -47,7 +47,6 @@
     padding-bottom: 5px;
     padding-right: 10px;
     height: auto;
-
     width: 40%;
   }
 
@@ -55,14 +54,15 @@
     padding: 5px;
     background-color: transparent;
     img {
-      height: 32px;
-      width: 30px;
+      height: 96px;
+      width: 90px;
     }
   }
 
   .title {
     display: flex;
     flex-direction: row;
+    align-items: center;
   }
 
   .name {
