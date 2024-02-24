@@ -4,6 +4,7 @@ $accentColor: "";
 $baseColor: "";
 $green: rgb(69, 197, 69);
 $darkGreen: rgb(22, 65, 22);
+
 a {
   /* display: flex;
   flex-direction: row; */
@@ -11,8 +12,4 @@ a {
   font-family: "Poppins", sans-serif;
   text-decoration: none;
   padding: 10px;
-}
-
-body {
-  min-width: 500px;
 }

@@ -1,7 +1,6 @@
 .footer {
   display: flex;
   flex-direction: column;
-  // text-align: start;
   background-size: 50px;
   flex-direction: row;
   height: auto;
@@ -9,11 +8,11 @@
   background-position: bottom;
   border-radius: 15px 15px 0px 0px;
   margin-top: 80px;
-  // padding-left: 15%;
   justify-content: center;
   height: 200px;
   background-repeat: repeat-x;
-  min-width: 600px;
+  min-width: 100%;
+  // min-width: 600px;
 
   .logo {
     padding-top: 40px;
@@ -22,8 +21,8 @@
     padding-right: 20px;
     background-color: transparent;
     img {
-      height: 64px;
-      width: 60px;
+      height: 51px;
+      width: 48px;
     }
   }
 
@@ -32,8 +31,7 @@
       font-size: 20px;
       font-weight: 600;
       text-align: start;
-
-      color: $darkGreen;
+      color: white;
       padding-top: 20px;
       padding-bottom: 10px;
     }
@@ -43,8 +41,12 @@
       font-weight: 400;
       text-align: start;
       font-style: italic;
-      color: $darkGreen;
+      color: white;
       padding-bottom: 20px;
+
+      @media (max-width: 600px) {
+        font-size: 12px;
+      }
     }
   }
 
@@ -59,10 +61,11 @@
     display: flex;
     justify-content: center;
     border-radius: 15px 15px 0px 0px;
+    min-width: 80%;
 
-    @media (max-width: 600px) {
-      width: 500px;
-      max-width: 400px;
-    }
+    // @media (max-width: 600px) {
+    //   width: 500px;
+    //   max-width: 400px;
+    // }
   }
 }

@@ -6,7 +6,8 @@
   width: 100%;
   height: auto;
   padding: 40px;
-  min-width: 600px;
+  min-width: 100%;
+  // min-width: 600px;
 
   @media (max-width: 600px) {
     padding: 20px;
@@ -18,9 +19,8 @@
     justify-content: center;
     height: auto;
     padding-top: 20px;
-    // padding-left: 40px;
     align-items: center;
-    min-width: 400x;
+    // min-width: 400px;
 
     @media (max-width: 800px) {
       flex-direction: column-reverse;
@@ -58,7 +58,8 @@
     text-align: center;
     align-items: center;
     max-width: 800px;
-    min-width: 300px;
+    min-width: 100%;
+    // min-width: 300px;
 
     @media (max-width: 1200px) {
       padding: 50px;
@@ -67,10 +68,6 @@
     @media (max-width: 600px) {
       padding: 20px;
     }
-
-    // @media (max-width: 800px) {
-    //   padding: 0;
-    // }
 
     .decorative-line {
       height: 4px; /* Set the height of the line */
