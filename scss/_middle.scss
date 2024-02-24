@@ -17,8 +17,8 @@
     background-position: right 200px center;
   }
 
-  @media (max-width: 600px) {
-    background-position: center;
+  @media (max-width: 1200px) {
+    background-image: none;
   }
 
   .large-statement {
