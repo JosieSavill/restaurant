@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Form</title>
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <style>
+       
+    </style>
+</head>
+<body id="reservation-bg">
+    <nav class="navbar">
+        <div class="hamburger-menu">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="40"
+            height="40"
+            fill="white"
+            class="bi bi-list"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"
+            />
+          </svg>
+        </div>
+        <div class="navbar-left">
+          <div class="logo">
+            <img
+              src="images/leaf.jpg"
+              alt="Vegetarian Logo"
+              class="background-transparent"
+            />
+          </div>
+  
+          <div class="title">
+            <div class="name">Fresh Outlook</div>
+            <div class="description">Vegetarian Fine Dining</div>
+          </div>
+        </div>
+        <div class="navbar-right">
+          <ul class="navbar-link" style="list-style-type: none; display: flex">
+            <li>
+              <a class="navbar-link reservations" href="/reserve.html">Reserve Table</a>
+            </li>
+            <li>
+              <a class="navbar-link restaurant-images" href="/">
+                View Restaurant 
+              </a>
+            </li>
+            <li>
+              <a class="navbar-link about-chefs" href="/">Meet Our Chefs</a>
+            </li>
+          </ul>
+        </div>
+      </nav> 
+
+   
+    
+    <div id="formWrapper">
+        <h2>Reserve A Table</h2>
+    <form action="">
+        <label>
+
+            Your Name:
+        </label>
+        <input name="name" type="text" id="name">
+        <label>
+
+            Date:
+        </label>
+        <input name="birthday" type="date" id="date">
+        <label>
+
+            Time:
+        </label>
+        <input name="favColor" type="color" id="color">
+        <label>
+            How Many Joining You?:
+        </label>
+        <input name="subscribe" type="checkbox">
+        <div id="submitWrapper">
+        <input name="submit" type="submit">
+        </div>   
+    </form>
+</div><!--end of form wrapper-->
+<div id="output">
+
+
+</div>
+
+
+<script>
+
+    document.querySelector('form').addEventListener('submit', (event) => {
+        event.preventDefault();
+
+
+        const name = document.querySelector('#name').value;
+
+        console.log("didi i get the name?", name);
+        
+        const outputEl = document.querySelector('#output');
+
+        outputEl.innerHTML = `Hello world, my name is ${name}`;
+
+        const birthday = document.querySelector('#date').value;
+
+        outputEl.innerHTML += `<br> My birth date is ${birthday}`;
+
+        const color = document.querySelector('#color').value;
+
+        outputEl.innerHTML += `<br> My favorite color is ${color}`;
+
+
+    }
+);
+
+
+            
+      
+</script>
+</body>
+</html>
