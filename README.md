@@ -36,6 +36,15 @@ git checkout main
 
 //begin workflow
 
+//if working in desktop this is the workflow:
+
+2. make changes in vscode
+3. open github desktop, 
+4. make sure you are in the right Repository if not select 
+in the dropdown to change to the correct repository
+5. in the changes tab, write your commit and select "commit to main"
+6. push to github.com
+
 ![Desktop Img](/images/Screenshot%20(112).png)
 
 ![Desktop Img](/images/Screenshot%20(113).png) 
